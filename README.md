@@ -23,6 +23,6 @@ defaults.cleanup(Key.self)
 
 If `case notificationShown` is removed, then the next time `defaults.cleanup(Key.self)` runs, the value will be removed from UserDefaults.
 
- #Caution
+ # Caution
  Always use the same enum, using a different one for cleanup() will cause all the other values to be deleted.
 
